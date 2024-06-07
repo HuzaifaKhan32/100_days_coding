@@ -8,4 +8,5 @@ let animals = ["Cow", "Dog", "Cat", "Donkey", "Camel"];
 animals.forEach((animal) => {
     console.log(`${animal} has 4 legs and a tail`);
 });
+console.log("Any one of them has 4 legs and a tail");
 export {};
