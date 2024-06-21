@@ -5,34 +5,17 @@ for (let i = 0; i < magicians.length; i++) {
 }
 console.log(magicians);
 // Question 43: Unchanged Magicians: Preserve the original magician names while creating a new "great" list.
-// let magician_names: string[] = ["Harry Porter", "Alice", "Bob", "Devin"];
-// function showMagician(magician: string[]): string[] {
-//     let magicians: string[] = magician
-//     return magicians
-// }
-// function makeGreat(magician: string[]) {
-//     console.log("The Great Added List:");
-//     magician.forEach((names) => {
-//         console.log("The Great " + names);
-//     })
-// }
-// makeGreat(magician_names);
-// console.log(showMagician(magician_names));
+let magician_names = ["Harry Porter", "Alice", "Bob", "Devin"];
 function showMagician(magician) {
     let magicians = magician;
     return magicians;
 }
-let magicianss = ["Alice", "David", "Chris"];
-function make_great(magicians) {
-    let greatMagicianss = [];
-    magicians.forEach(magician => {
-        greatMagicianss.push(`${magician} the Great`);
+function makeGreat(magician) {
+    console.log("The Great Added List:");
+    magician.forEach((names) => {
+        console.log("The Great " + names);
     });
-    return greatMagicianss;
 }
-let greatMagicians = make_great(magicianss.slice()); // Creates a new modified array
-console.log("Original magicians:");
-console.log(showMagician(magicianss)); // Shows original names
-console.log("Great magicians:");
-console.log(showMagician(greatMagicians)); // Shows modified names
+makeGreat(magician_names);
+console.log(showMagician(magician_names));
 export {};

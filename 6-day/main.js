@@ -26,9 +26,20 @@ console.log(num1 >= num2); // false
 // Question 24: More Conditional Tests: Expand your conditional tests to cover a wider range of comparisons.
 let stringTest1 = "Huzaifa";
 let stringTest2 = "huzaifa";
+console.log("Typescript is case sensitive");
 console.log(stringTest1 == stringTest2); //false
+console.log("\nStrictly testing");
 console.log(stringTest1 === stringTest2); // false
+console.log("\nConvert stringTest1 into lower case then check the condition");
 console.log(stringTest1.toLowerCase() == stringTest2); //true
+console.log("\nConvert both variables into upper case then check the condition");
 console.log(stringTest1.toUpperCase() == stringTest2.toUpperCase()); //true
+console.log("Simply check the value of a variable");
 console.log(stringTest1 === "Huzaifa"); //true
+console.log("\nCheck condition with logical opertors");
+console.log(true && false); // fasle
+console.log(true || false); // true
+console.log("\ncheck the condition in array");
+let cars = ["civic", "corolla", "bugati"];
+console.log(cars.includes("civic")); // true
 export {};

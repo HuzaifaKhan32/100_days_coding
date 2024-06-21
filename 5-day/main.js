@@ -15,4 +15,7 @@ places_world.forEach((place) => {
 console.log("Alphabetically arranged: ", [...places_world].sort());
 // We can sort the array in reverse alphabetical order
 console.log("Reverse Alphabetically arranged: ", [...places_world].sort().reverse());
+// Question 19: Dinner Guests: Use one of your programs from Exercises 14 through 18 to print a message indicating the number of people you are inviting to dinner.
+let guest_list = ["Rovman", "Harry", "Pooran", "Bob", "Head", "Charles"];
+console.log(`I am inviting ${guest_list.length} guests to dinner`);
 export {};

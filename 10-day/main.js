@@ -10,4 +10,11 @@ function make_shirt(size = "Meduim", design = "Strippes", colour = "Black") {
 }
 // Default parameter
 console.log(make_shirt());
+// Question 38: Cities: Describing cities with a function.
+function cities(city, country = "Pakistan") {
+    return `${city} is in ${country}`;
+}
+cities("Karachi");
+cities("Lahore");
+cities("Islamabad");
 export {};

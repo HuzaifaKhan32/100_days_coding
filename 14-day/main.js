@@ -29,6 +29,7 @@ let [laptop1, laptop2, laptop3] = laptopArray;
 console.log(laptop1);
 console.log(laptop2);
 console.log(laptop3);
+// Question 48: Combining Arrays with Spread Operator: Suppose you're comparing prices of two different sets of laptops. Use the spread operator to combine these arrays into a single array sorted in ascending order, then log the result.
 let priceSet1 = [16000, 25000, 20000];
 let priceSet2 = [30000, 99000, 65000];
 let combineArray = [...priceSet1, ...priceSet2];

@@ -19,7 +19,7 @@ function quotientRemaindr(num1, num2) {
     let remainder = num1 % num2;
     let quotient = num1 / num2;
     let result = {
-        quotient: quotient,
+        quotient: quotient.toFixed(2),
         remainder: remainder
     };
     return result;
