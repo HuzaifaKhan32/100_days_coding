@@ -8,6 +8,21 @@ for(let i = 1; i <= 5; i++){
 // "let" is a block scope variable means according ro this loop if we trying to use "i" from the outside of this loop this will through me an error. block scope variable is so beneficial for us.   
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Question 71: Compare let and const: Create two examples where let allows reassignment but const does not. Try to reassign a const-declared variable and catch the error.
 
 
