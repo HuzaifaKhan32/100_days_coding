@@ -12,6 +12,7 @@ function checkKey(object) {
     }
 }
 console.log(checkKey(countries));
+// Question 114: Iterate over a Map of student IDs and names, and log each pair to the console.
 let students = new Map();
 students.set("Huzaifa", 11821);
 students.set("Hamza", 11824);

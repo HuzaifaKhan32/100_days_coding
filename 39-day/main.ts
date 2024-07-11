@@ -28,9 +28,9 @@ let obj = {
     traditionalFunc : function (){
         console.log(`My name is ${this.value}`)
     },
-    arrowFunc : () => console.log(`My name is ${this.value}`)
+    // arrowFunc : () => console.log(`My name is ${this.value}`) // Error
 
 }
 
-obj.arrowFunc();
+// obj.arrowFunc(); // Error
 obj.traditionalFunc();

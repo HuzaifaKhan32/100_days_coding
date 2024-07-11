@@ -7,6 +7,12 @@ console.log(Math.sqrt(144));
 
 
 
+
+
+
+
+
+
 // Question 101: Generate a random integer between 1 and 10.
 
 let randomNumber = Math.ceil(Math.random() * 10) + 1;
