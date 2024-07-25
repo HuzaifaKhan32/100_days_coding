@@ -16,6 +16,7 @@ let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let newArray = array.filter((word) => word > 5);
 console.log(`Orignal Array:`, array); // Orignal Array
 console.log(`Filtered Array:`, newArray); // Filtered Array
+// Question 147: Explain how to handle errors in a callback pattern.
 function fetchData(callback) {
     let error = new Error("Something went wrong");
     let data = "Some data";

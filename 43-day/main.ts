@@ -22,11 +22,19 @@ function returnValue(num1: number, num2: number): number {
 returnValue(5, 5);
 
 
+
+
+
 // Question 140: Explain the error that occurs when trying to use a reserved word as a variable name.
 
-let let = "Error" //Error
+// let let = "Error" //Error
 
 // Syntax Error: Unexpected strict mode reserved word.
+
+
+
+
+
 
 // Question 141: Discuss the significance of the await reserved word in asynchronous JavaScript.
 

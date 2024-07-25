@@ -33,8 +33,8 @@ const GlobalVariable = "Huzaifa";
 }
 // It is throwing me an error because "localVariable" is a local scope variable
 try {
-    console.log(localVariable);
-    console.log(LocalVariable);
+    //     console.log(localVariable); //ERROR
+    //     console.log(LocalVariable); //ERROR
 }
 catch (error) {
     console.log(" It is throwing me an error because 'localVariable' is a local scope variable");
